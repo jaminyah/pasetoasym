@@ -1,0 +1,1 @@
+Initial Development of ed25519 algorithm public / private key pair written in Golang.

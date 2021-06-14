@@ -1,0 +1,5 @@
+Generate ED25519 Private Key:
+$ openssl genpkey -algorithm ed25519 -out prikeyEd25519.pem
+
+Generate ED25519 Public Key:
+$ openssl pkey -in prikeyEd25519.pem -pubout -out pubkeyEd25519.pem
